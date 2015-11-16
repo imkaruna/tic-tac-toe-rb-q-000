@@ -79,7 +79,6 @@ describe './lib/tic_tac_toe.rb' do
       allow($stdout).to receive(:puts)
 
       expect($stdout).to receive(:puts).with("Congratulations X!")
-
       play(board)
     end
 
